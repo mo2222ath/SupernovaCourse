@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 70%;
+    background-image: url(../img/BG3.jpg);
+    background-color: gainsboro;
+    font-size: 90%;
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+a{text-decoration: none;}
+a:link, a:visited {color : #202441;}
+a:hover, a:active {color : #f58233;}
+
+.body{
+    margin: 20px auto;
+    width: 70%;
+    clear: both;
+}
+
+
+/*---------------main Header ----------------*/
+
+.mainHeader img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.mainHeader nav{
+    background-color:  #e6b800
+    ;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    display: inline;
+}
+
+.mainHeader a{
+    color: white;
+}
+
+.mainHeader a:link , .mainHeader:visited{
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.mainHeader a:hover , .mainHeader:active{
+    color: white;
+    background-color : gray;
+}
+
+
+
+/*------------- main Content ............... */
+
+.mainContent {
+    background-color: white;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.mainBody {
+    padding: 3%;
+    margin-bottom: 20%;
+}
+
+.mainBody img {
+    float: right;
+}
+
+.subHeader{
+    display: inline-flexbox;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.myPic1{
+  margin-top: 0;
+  padding: 2%;
+  float: left;
+}
+
+.Title{
+    padding-left: 12%;
+    padding-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.Description{
+   width: 60%;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    float: left;
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+
+
+  
+.myList table{
+    width: 40%;
+    
+}
+
+  .section2 .listForm{
+      width: 40%;
+      padding-left: 50%;      
+  }
+footer{
+    float: right;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box
+}
+
+
+body{
+  background-color: black;
+}
+
+#section1{
+    background-image: url(../img/BNB2.jpg);
+    width: 100%;
+    height: 720px;
+    background-size: cover;
+    position: fixed;
+}
+
+
+
+#Logo-img{
+    float: left;
+    margin: 40px;
+}
+
+
+.navbar{
+    height: 75px;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+}
+.navbar ul li a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+  .navbar ul li a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .navbar a:hover {
+    background-color: rgb(212, 212, 93);
+  }
+
+  .active {
+    background-color: #555;
+  }
+
+  .navbar ul li a{
+    display: inline-flex;
+    margin: 20px;
+}
+
+
+
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #555;
+    border-radius: 15px;
+    box-shadow: 0 9px #333;
+    margin-top: 400px;
+    margin-left: 700px;
+  }
+
+  
+  
+  .button:hover {background-color: rgb(212, 212, 93);}
+  
+  .button:active {
+    background-color: #222;
+    box-shadow: 0 5px blueviolet;
+    transform: translateY(4px);
+  }
+
+  #butt{
+      position: center;
+  }
+
+
+  #section2{
+    width: 100%;
+    height: 600px;
+    
+  }
+
+
+
+.Pics{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
